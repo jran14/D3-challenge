@@ -93,7 +93,7 @@ const smokeYaxisLabel= labelsYgroup.append('text')
 ////////////////////////////////////////////////////////////////////////////
 
 //import the data from the csv file and read
-d3.csv('assets/data/data.csv').then(function(data){
+d3.csv('D3_data_journalism/assets/data/data.csv').then(function(data){
 
     //Parse through the data to convert from string to integers
     data.forEach(function(data) {
